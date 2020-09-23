@@ -1,0 +1,14 @@
+<div class="header">
+    <img src="../../../assets/todo2.png" alt="">
+    <h1>MyTodoApp</h1>
+    <h3 routerLink="/todos">I miei Todo</h3>
+    <h4>Prossimo Todo</h4>
+</div>
+<div class="page">
+    <h2>Benvenuto {{user | async}}</h2>
+    <p>
+        In questa pagina puoi gestire tutti i tuoi impegni creando dei promemoria dettagliati in modo estremamente rapido ed intuitivo! <br>
+        <h5 routerLink="/todos">Inizia subito!</h5>
+
+
+        <app-todo-preview [todo]="todo | async"></app-todo-preview>

@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    height: 100px;
+    background-color: #DEDEDE;
+    border-bottom: 1px solid black;
+}
+
+.page {
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px #dedede;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 4%;
+}
+
+h1 {
+    margin-right: 55%;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3,
+h4 {
+    margin-left: 5%;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+h3:hover {
+    color: white;
+    text-decoration: underline;
+    outline: none;
+}
+
+h4:hover {
+    color: white;
+    text-decoration: underline;
+    outline: none;
+}
+
+h5:hover {
+    color: grey;
+    text-decoration: underline;
+    outline: none;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+img {
+    padding-top: 10px;
+    height: 63px;
+    width: 51px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

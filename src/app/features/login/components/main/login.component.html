@@ -1,0 +1,7 @@
+<div>
+    <img src="../../../assets/todo2.png" alt="">
+    <form [formGroup]="loginForm" (ngSubmit)="doLogin()">
+        <app-input-text formControlName="username" [label]="'Username'" class="input"></app-input-text>
+        <app-input-text formControlName="password" [label]="'Password'" class="input"></app-input-text>
+        <button type="submit">Login</button>
+    </form>

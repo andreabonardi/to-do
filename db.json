@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "username": "andreabonardi",
+      "name": "Andrea",
+      "surname": "Bonardi"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "title": "Dentista",
+      "description": "Rimozione carie",
+      "steps": [
+        {
+          "done": false,
+          "title": "Costo: 100 euro"
+        }
+      ]
+    }
+  ]
+}

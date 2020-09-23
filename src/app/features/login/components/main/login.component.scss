@@ -1,0 +1,44 @@
+div {
+    height: 400px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    border: 1px solid #dedede;
+    background-color: #dedede;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border: 0px solid black;
+    background-color: rgb(93, 182, 238);
+}
+
+button:hover {
+    background-color: DarkGray;
+    color: white;
+}
+
+.input {
+    margin: 20px;
+    padding-right: 20px;
+}
+
+img {
+    padding-top: 10px;
+    height: 123px;
+    width: 102px;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
